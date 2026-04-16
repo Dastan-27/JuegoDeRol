@@ -1,0 +1,249 @@
+[
+  {
+    "id": "entrada",
+    "nombre": "Portal de los Secretos",
+    "descripcion": "Has entrado en una cámara oculta, fuera del conocimiento público. No es una prisión… es un archivo de verdades que el mundo nunca quiso que vieras. Aquí no hay crimen, hay información. Y la información… es poder.",
+    "acertijo": "¿Qué es más poderoso que el dinero, más peligroso que un arma y puede controlar masas sin ser visto?",
+    "respuesta": "La información",
+    "direcciones": {
+      "norte": "camara_verdad",
+      "sur": "historia_borrada",
+      "este": "archivo_oculto",
+      "oeste": null
+    }
+  },
+  {
+    "id": "camara_verdad",
+    "nombre": "Cámara de la Verdad",
+    "descripcion": "Las paredes están cubiertas de pantallas mostrando noticias, redes sociales y discursos políticos. Todo parece real… pero no todo es verdad. Aquí aprendes que la percepción puede ser manipulada.",
+    "acertijo": "Si todos creen en una mentira… ¿se convierte en verdad?",
+    "respuesta": "No, sigue siendo mentira aunque todos la crean",
+    "direcciones": {
+      "norte": null,
+      "sur": "entrada",
+      "este": null,
+      "oeste": null
+    }
+  },
+  {
+    "id": "archivo_oculto",
+    "nombre": "Archivo Oculto",
+    "descripcion": "Miles de documentos clasificados, teorías descartadas y hechos históricos alterados. Descubres que muchas verdades fueron enterradas, no porque fueran falsas… sino porque eran incómodas.",
+    "acertijo": "¿Qué es más peligroso para el poder: una mentira bien contada o una verdad descubierta?",
+    "respuesta": "Una verdad descubierta",
+    "direcciones": {
+      "norte": "sala_control",
+      "sur": "sala_vigilancia",
+      "este": "biblioteca_prohibida",
+      "oeste": "entrada"
+    }
+  },
+  {
+    "id": "sala_control",
+    "nombre": "Sala de Control",
+    "descripcion": "Aquí no se guardan secretos… aquí se crean. Algoritmos, tendencias, manipulación digital. Lo que ves en internet no siempre es lo que eliges ver… es lo que alguien decidió mostrarte.",
+    "acertijo": "Si algo es gratis en internet… ¿quién es el producto?",
+    "respuesta": "Tú",
+    "direcciones": {
+      "norte": null,
+      "sur": "archivo_oculto",
+      "este": null,
+      "oeste": null
+    }
+  },
+  {
+    "id": "biblioteca_prohibida",
+    "nombre": "Biblioteca Prohibida",
+    "descripcion": "Libros que nunca fueron publicados, teorías censuradas y conocimientos que no llegaron al público. Aquí entiendes que el conocimiento no siempre se comparte… a veces se esconde.",
+    "acertijo": "¿Qué pesa más: la ignorancia de muchos o el conocimiento de pocos?",
+    "respuesta": "La ignorancia de muchos",
+    "direcciones": {
+      "norte": "sala_mentes",
+      "sur": null,
+      "este": null,
+      "oeste": "archivo_oculto"
+    }
+  },
+  {
+    "id": "sala_mentes",
+    "nombre": "Sala de las Mentes",
+    "descripcion": "Una sala silenciosa con espejos. No muestran tu reflejo… muestran lo que consumes, lo que piensas, lo que crees. Te das cuenta de algo inquietante: muchas de tus ideas no son tuyas.",
+    "acertijo": "Si una idea no nació en ti… pero la defiendes como propia… ¿de quién es realmente?",
+    "respuesta": "De quien la implantó",
+    "direcciones": {
+      "norte": null,
+      "sur": "biblioteca_prohibida",
+      "este": null,
+      "oeste": null
+    }
+  },
+  {
+    "id": "sala_vigilancia",
+    "nombre": "Sala de Vigilancia",
+    "descripcion": "Miles de pantallas muestran personas en sus casas, calles, trabajos. Nadie sabe que está siendo observado. No necesitas cámaras en todas partes… solo acceso a sus dispositivos.",
+    "acertijo": "Si aceptas todos los términos y condiciones sin leer… ¿realmente sabes a qué diste permiso?",
+    "respuesta": "No",
+    "direcciones": {
+      "norte": "archivo_oculto",
+      "sur": "sala_identidad",
+      "este": null,
+      "oeste": null
+    }
+  },
+  {
+    "id": "sala_identidad",
+    "nombre": "Cámara de Identidad",
+    "descripcion": "Perfiles digitales flotan en el aire: fotos, gustos, ubicación, historial. Aquí no eres una persona… eres datos. Y esos datos pueden ser vendidos, manipulados o destruidos.",
+    "acertijo": "Si eliminas tu cuenta… ¿desaparecen realmente tus datos?",
+    "respuesta": "No",
+    "direcciones": {
+      "norte": "sala_vigilancia",
+      "sur": null,
+      "este": "sala_ilusion",
+      "oeste": "matriz_financiera"
+    }
+  },
+  {
+    "id": "sala_ilusion",
+    "nombre": "Sala de la Ilusión",
+    "descripcion": "Pantallas muestran vidas perfectas: viajes, cuerpos ideales, éxito constante. Pero detrás… ansiedad, comparación y vacío. Lo que ves no es la realidad, es una versión editada.",
+    "acertijo": "Si todos muestran solo su mejor momento… ¿puedes comparar tu vida real con eso?",
+    "respuesta": "No",
+    "direcciones": {
+      "norte": null,
+      "sur": null,
+      "este": "sala_tiempo",
+      "oeste": "sala_identidad"
+    }
+  },
+  {
+    "id": "sala_tiempo",
+    "nombre": "Sala del Tiempo Perdido",
+    "descripcion": "Un contador gigante avanza sin parar. Muestra horas gastadas en pantallas, distracciones y contenido sin valor. Nadie puede recuperar ese tiempo.",
+    "acertijo": "¿Qué es lo único que gastas constantemente sin darte cuenta y nunca puedes recuperar?",
+    "respuesta": "El tiempo",
+    "direcciones": {
+      "norte": "boveda_semillas",
+      "sur": "sala_consumo",
+      "este": null,
+      "oeste": "sala_ilusion"
+    }
+  },
+  {
+    "id": "sala_consumo",
+    "nombre": "Sala del Consumo",
+    "descripcion": "Productos aparecen y desaparecen. Publicidad personalizada te sigue a cada paso. No compras lo que necesitas… compras lo que te hicieron desear.",
+    "acertijo": "Si crees que elegiste comprar algo… pero alguien influyó en tu decisión… ¿fue realmente tu elección?",
+    "respuesta": "No completamente",
+    "direcciones": {
+      "norte": "sala_tiempo",
+      "sur": null,
+      "este": "sala_poder",
+      "oeste": null
+    }
+  },
+  {
+    "id": "sala_poder",
+    "nombre": "Sala del Poder",
+    "descripcion": "Un pequeño grupo controla grandes decisiones: economía, información, tendencias. No necesitas controlar a todos… solo a los que influyen en todos.",
+    "acertijo": "¿Qué es más efectivo: controlar a millones directamente o influir en unos pocos que controlan a millones?",
+    "respuesta": "Influir en unos pocos",
+    "direcciones": {
+      "norte": "sala_frecuencias",
+      "sur": "sala_verdad_final",
+      "este": null,
+      "oeste": "sala_consumo"
+    }
+  },
+  {
+    "id": "sala_verdad_final",
+    "nombre": "La Verdad Final",
+    "descripcion": "No hay pantallas, no hay ruido. Solo silencio. Aquí entiendes algo inquietante: el sistema no necesita encerrarte… porque tú participas en él todos los días voluntariamente.",
+    "acertijo": "Si conoces la verdad… pero no cambias nada… ¿realmente eres libre?",
+    "respuesta": "No",
+    "direcciones": {
+      "norte": "sala_poder",
+      "sur": null,
+      "este": "cupula_elites",
+      "oeste": null
+    }
+  },
+  {
+    "id": "historia_borrada",
+    "nombre": "Archivo de la Humanidad Borrada",
+    "descripcion": "Restos de civilizaciones que superaron nuestra tecnología actual. Cataclismos provocados para 'resetear' la sociedad cuando se vuelve incontrolable. La historia no es lineal, es un ciclo manipulado.",
+    "acertijo": "¿Qué es más fácil de reescribir que un libro, pero determina el futuro de todos los que lo aprenden?",
+    "respuesta": "La historia",
+    "direcciones": {
+      "norte": "entrada",
+      "sur": "matriz_financiera",
+      "este": null,
+      "oeste": null
+    }
+  },
+  {
+    "id": "matriz_financiera",
+    "nombre": "El Gran Casino Mundial",
+    "descripcion": "Pilas de oro falso y gráficos de deudas. Descubres que el dinero que usas no tiene respaldo, se crea de la nada mediante deuda. Eres un esclavo moderno pagando con tiempo un papel que ellos imprimen gratis.",
+    "acertijo": "Te doy algo que no vale nada para que me des tu tiempo, tu energía y tu vida. ¿Qué es?",
+    "respuesta": "El dinero",
+    "direcciones": {
+      "norte": "historia_borrada",
+      "sur": null,
+      "este": "sala_identidad",
+      "oeste": null
+    }
+  },
+  {
+    "id": "boveda_semillas",
+    "nombre": "Bóveda del Hambre Controlada",
+    "descripcion": "Semillas patentadas y químicos esterilizantes. El monopolio corporativo sobre lo que comes. Si siembras lo tuyo, eres ilegal. Quien controla el estómago, silencia cualquier revolución.",
+    "acertijo": "Te mantiene vivo, pero si no tienes permiso para producirlo, te hace esclavo. ¿Qué es?",
+    "respuesta": "La comida",
+    "direcciones": {
+      "norte": null,
+      "sur": "sala_tiempo",
+      "este": "laboratorio_genetico",
+      "oeste": null
+    }
+  },
+  {
+    "id": "laboratorio_genetico",
+    "nombre": "Laboratorio del Miedo",
+    "descripcion": "Tubos de ensayo con patógenos y sus antídotos ya patentados con décadas de anticipación. Un paciente curado es un cliente perdido. El verdadero negocio es el tratamiento crónico.",
+    "acertijo": "¿Qué negocio fracasa rotundamente si su producto funciona a la perfección la primera vez?",
+    "respuesta": "La industria farmacéutica",
+    "direcciones": {
+      "norte": null,
+      "sur": "sala_frecuencias",
+      "este": null,
+      "oeste": "boveda_semillas"
+    }
+  },
+  {
+    "id": "sala_frecuencias",
+    "nombre": "Matriz de Frecuencias",
+    "descripcion": "Antenas gigantes zumbando en frecuencias específicas. Ondas invisibles que alteran el estado de ánimo, causan letargo y docilidad masiva. No necesitas barrotes si la cárcel está en el aire que respiras.",
+    "acertijo": "No la puedes ver ni tocar, pero en total silencio puede alterar cómo te sientes y qué piensas.",
+    "respuesta": "Una frecuencia",
+    "direcciones": {
+      "norte": "laboratorio_genetico",
+      "sur": "sala_poder",
+      "este": null,
+      "oeste": null
+    }
+  },
+  {
+    "id": "cupula_elites",
+    "nombre": "El Ojo de la Pirámide",
+    "descripcion": "La cima absoluta. Aquí no hay presidentes ni ministros; ellos son solo los actores. Aquí están las familias sin rostro que son dueñas de los bancos centrales y financian ambos bandos de cada guerra.",
+    "acertijo": "¿Quién siempre gana en un conflicto, sin importar qué bando sea derrotado?",
+    "respuesta": "El que financia a ambos",
+    "direcciones": {
+      "norte": null,
+      "sur": null,
+      "este": null,
+      "oeste": "sala_verdad_final"
+    }
+  }
+]
